@@ -1,0 +1,34 @@
+.start {
+  width: 250px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+}
+.usernameInput {
+  border: none;
+  border-radius: 5px;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  font-size: 18px;
+}
+.usernameInput:focus {
+  outline: none;
+}
+.playButton {
+  height: 30px;
+  width: 100%;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 500;
+}
